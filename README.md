@@ -17,13 +17,6 @@ To resolve the **"CRF Dilemma"** and achieve real-time, privacy-preserving deplo
 - **CRF-Free & Lightweight:** Achieves a **3.1$\times$ inference speedup** (14.5ms/seq) over traditional CRF models while maintaining a state-of-the-art Strict F1-score (86.11%).
 - **Crushing Generative LLMs:** Comprehensively outperforms leading LLMs (DeepSeek, Qwen, Kimi) in exact-match boundary constraints while requiring $<1$GB VRAM for 100% on-premise privacy-preserving deployment.
 
-## 🏛️ Architecture
-
-<p align="center">
-  <img src="assets/architecture.png" alt="MVCL-NER Architecture" width="85%">
-</p>
-
-> **Figure:** The extraction-fusion-alignment architecture of MVCL-NER. It harmonizes pre-trained semantics with lexical/structural boundaries, enabling a lightweight linear classifier to bypass the heavy CRF decoder entirely.
 
 ## 🚀 Main Results
 
